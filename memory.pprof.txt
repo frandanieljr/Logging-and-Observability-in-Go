@@ -1,0 +1,66 @@
+File: linko
+Build ID: 4869ef3e06499d48e5bd9cde8c8e9bb0af97c977
+Type: inuse_space
+Time: 2026-10-23 10:10:51 -03
+Duration: 30.01s, Total samples = 6252.73kB 
+Showing nodes accounting for 3115.15kB, 49.82% of 6252.73kB total
+      flat  flat%   sum%        cum   cum%
+ 3658.89kB 58.52% 58.52%  3658.89kB 58.52%  internal/bytealg.MakeNoZero
+ 1025.05kB 16.39% 74.91%  1025.05kB 16.39%  runtime.mallocgc
+ -544.67kB  8.71% 66.20%  -544.67kB  8.71%  net.open
+ -512.07kB  8.19% 58.01%  -512.07kB  8.19%  net/url.parse
+ -512.05kB  8.19% 49.82%  -512.05kB  8.19%  regexp/syntax.(*parser).newRegexp (inline)
+         0     0% 49.82%  -512.07kB  8.19%  github.com/lmittmann/tint.(*handler).Handle
+         0     0% 49.82%  -512.05kB  8.19%  github.com/prometheus/procfs.init
+         0     0% 49.82%  -512.07kB  8.19%  log/slog.(*Logger).Info
+         0     0% 49.82%  -512.07kB  8.19%  log/slog.(*Logger).log
+         0     0% 49.82%  3658.89kB 58.52%  main.(*server).handlerRedirect
+         0     0% 49.82%  -544.67kB  8.71%  main.(*server).start
+         0     0% 49.82%  3658.89kB 58.52%  main.metricsMiddleware.func1
+         0     0% 49.82%  -512.07kB  8.19%  main.redactAttr
+         0     0% 49.82%  -512.07kB  8.19%  main.replaceAttr
+         0     0% 49.82%  3146.82kB 50.33%  main.requestID.func1
+         0     0% 49.82%  3146.82kB 50.33%  main.requestLogger.func1.func1
+         0     0% 49.82%  -544.67kB  8.71%  main.run.func2
+         0     0% 49.82%  -544.67kB  8.71%  net.(*ListenConfig).Listen
+         0     0% 49.82%  -544.67kB  8.71%  net.(*sysListener).listenMPTCP
+         0     0% 49.82%  -544.67kB  8.71%  net.(*sysListener).listenTCP (inline)
+         0     0% 49.82%  -544.67kB  8.71%  net.(*sysListener).listenTCPProto
+         0     0% 49.82%  -544.67kB  8.71%  net.Listen
+         0     0% 49.82%  -544.67kB  8.71%  net.internetSocket
+         0     0% 49.82%  -544.67kB  8.71%  net.listenerBacklog
+         0     0% 49.82%  -544.67kB  8.71%  net.listenerBacklog.func1
+         0     0% 49.82%  -544.67kB  8.71%  net.maxListenerBacklog
+         0     0% 49.82%  -544.67kB  8.71%  net.socket
+         0     0% 49.82%  3658.89kB 58.52%  net/http.(*ServeMux).ServeHTTP
+         0     0% 49.82%  3146.82kB 50.33%  net/http.(*conn).serve
+         0     0% 49.82%  3146.82kB 50.33%  net/http.HandlerFunc.ServeHTTP
+         0     0% 49.82%  3146.82kB 50.33%  net/http.serverHandler.ServeHTTP
+         0     0% 49.82%  -512.07kB  8.19%  net/url.Parse
+         0     0% 49.82%  -512.05kB  8.19%  regexp.Compile (inline)
+         0     0% 49.82%  -512.05kB  8.19%  regexp.MustCompile
+         0     0% 49.82%  -512.05kB  8.19%  regexp.compile
+         0     0% 49.82%  -512.05kB  8.19%  regexp/syntax.(*parser).repeat
+         0     0% 49.82%  -512.05kB  8.19%  regexp/syntax.Parse (inline)
+         0     0% 49.82%  -512.05kB  8.19%  regexp/syntax.parse
+         0     0% 49.82%   512.05kB  8.19%  runtime.acquireSudog
+         0     0% 49.82%      513kB  8.20%  runtime.allocm
+         0     0% 49.82%  -512.05kB  8.19%  runtime.doInit (inline)
+         0     0% 49.82%  -512.05kB  8.19%  runtime.doInit1
+         0     0% 49.82%   512.05kB  8.19%  runtime.gcBgMarkWorker
+         0     0% 49.82%   512.05kB  8.19%  runtime.gcMarkDone
+         0     0% 49.82%  -512.05kB  8.19%  runtime.main
+         0     0% 49.82%      513kB  8.20%  runtime.mcall
+         0     0% 49.82%      513kB  8.20%  runtime.newm
+         0     0% 49.82%  1025.05kB 16.39%  runtime.newobject
+         0     0% 49.82%      513kB  8.20%  runtime.park_m
+         0     0% 49.82%      513kB  8.20%  runtime.schedule
+         0     0% 49.82%   512.05kB  8.19%  runtime.semacquire (inline)
+         0     0% 49.82%   512.05kB  8.19%  runtime.semacquire1
+         0     0% 49.82%      513kB  8.20%  runtime.startm
+         0     0% 49.82%      513kB  8.20%  runtime.wakep
+         0     0% 49.82%  3658.89kB 58.52%  strings.(*Builder).Grow
+         0     0% 49.82%  3658.89kB 58.52%  strings.(*Builder).grow
+         0     0% 49.82%  3658.89kB 58.52%  strings.Repeat
+         0     0% 49.82%  -544.67kB  8.71%  sync.(*Once).Do (inline)
+         0     0% 49.82%  -544.67kB  8.71%  sync.(*Once).doSlow
